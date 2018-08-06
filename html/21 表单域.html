@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>表单域</title>
+</head>
+<body>
+	<form action="" method="post" name="userMessage">
+		<!--<input /> input是个单标签 br hr img base input-->
+	用户名: <input type="text" value="user" />	<br />	<!--文本框-->
+	密　码: <input type="password" />	<br />	<!--密码框<-->	</--><!-- shit + space输入法切换半角和全角 -->
+	<!-- ctrl + / 注释快捷键 -->
+	性　别:	<input type="radio" name="sex" checked="checked" /> 男		<input type="radio" name="sex" /> 女<br />	<!-- 单选按钮-->
+	<!-- checked默认选项属性 -->
+	<!-- 利用name来定义控件名字，控件名都为sex，则单选框男和女为一组，实现一组，通过相同的name值来实现 -->
+	爱　好:	<input type="checkbox" name="hobby" /> 游泳	<input type="checkbox" name="hobby" /> 网球	<input type="checkbox" name="hobby" /> 羽毛球	<input type="checkbox" name="hobby" /> 篮球	<br />
+	搜索:	<input type="button" value="搜索" />	<br /> <!--普通按钮-->
+	<input type="submit" />
+	<input type="submit" value="提交表单" />		<!--提交按钮-->
+	<input type="reset" />
+	<input type="reset" value="重置表单" />	<br />	<!--重置按钮-->
+	<input type="image" src="09.jpg" />	<br /><!--图像按钮-->
+	上传文件: <input type="file" /><!--文件按钮-->
+	</form>
+</body>
+</html>

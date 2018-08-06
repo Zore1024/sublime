@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>HTML5 新增的input属性值</title>
+</head>
+<body>
+	<fieldset>
+		<legend>HTML5 新增的input属性值</legend>
+		<form action="">
+			<label>用户名：<input type="text" placeholder="请输入用户名" autofocus="autofocus" /></label> <br />
+			<!-- <label>用户名：<input type="text" placeholder="请输入用户名" autofocus /></label> <br /> -->
+			<label>上传图像：<input type="file" multiple="multiple" /></label>
+			<!-- <label>上传图像：<input type="file" multiple /></label> -->
+		</form>
+
+		<h4>自动记录完成</h4>
+		1.autocomplete 首先需要提交按钮<br />
+		2.表单必须有名字<br />
+		<form action="">
+			<label>姓名：<input type="text" autocomplete=on name="userName" /></label>
+			<input type="submit" />
+		</form>
+
+		<label>昵称：<input type="text" placeholder="昵称不为空" required accesskey="s" /></label> <br /> <!-- 昵称不为空 -->
+	</fieldset>
+</body>
+</html>
