@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>多媒体</title>
+</head>
+<body>
+	<h2>音频</h2>
+	<audio src="邓丽君 - 甜蜜蜜.mp3" autoplay controls loop="2" /></audio>
+	<!-- 循环两次，显示播放控件 自动播放 -->
+	<h4>浏览器兼容 三种声音文件 ogg mp3 wav</h4>
+	<audio controls autoplay>
+		<source src="邓丽君 - 甜蜜蜜.mp3" />
+		<source src="邓丽君 - 甜蜜蜜.ogg" />
+		<!-- <source src="邓丽君 - 甜蜜蜜.wav" /> -->
+		<!-- ogg wav声音格式选一个就行  -->
+	</audio>
+	<h2>视频</h2>
+	<video src="mp4.mp4" autoplay controls width="500" /></video>
+	<h4>浏览器兼容</h4>
+	<video controls autoplay>
+		<source src="mp4.mp4" />
+		<source src="ogg.ogg" />
+	</video>
+</body>
+</html>
