@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>其他选择器</title>
+	<style>
+	.red { /*类选择器可以多次使用 类似人名可以重名*/
+		color: red;
+	}
+	#pink { /*id选择器只能使用一次*/
+		color: pink;
+	}
+	* {
+		color: blue;
+	}
+
+	a:link {	/*链接伪类选择器 未访问的链接*/
+		font-size: 14px;
+		color: blue;
+		font-weight: bold;
+	}
+	a:visited {	/*链接伪类选择器 已访问的链接*/
+		font-size: 16px;
+		color: orange;
+		font-weight: bolder;
+	}
+	a:hover {	/*链接伪类选择器 鼠标经过链接*/
+		color: red;
+		font-size: 16px;
+		font-weight: 700;
+	}
+	a:active { /*链接伪类选择器 鼠标点击链接
+		*/
+		font-size: 16px;
+		color: green;
+		font-weight: 700;
+	}
+	</style>
+
+</head>
+<body>
+	<div class="red">始祖巨人</div>
+	<div class="red">进击巨人</div>
+	<div class="red">超大巨人</div>
+	<div class="red">铠甲巨人</div>
+	<div class="red">女巨人</div>
+	<div class="red">颚之巨人</div>
+	<div class="red">兽之巨人</div>
+	<div id="pink">车之巨人</div>
+	<div class="red">战锤巨人</div>
+	<p>尤米尔</p>
+	<!-- 伪类选择器其中的 链接伪类选择器 主要用于 a -->
+	<div>
+		<a href="#">秒杀</a></div>
+		<a href="#">闪购</a>
+</body>
+</html>
