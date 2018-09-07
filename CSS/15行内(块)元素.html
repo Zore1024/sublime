@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>行内(块)元素</title>
+	<style>
+		span {
+			background-color: pink;
+			width: 100px; /*无效*/
+			height: 100px; /*无效*/
+		}
+		input {
+			width: 200px;
+			height: 300px;
+		}
+	</style>
+</head>
+<body>
+	<span>12306</span>
+	<span>777</span>
+	<span>666</span>
+	<!-- <a href=""><a href=""></a></a> 错误-->
+	<p>
+		<div>123</div>
+	</p> <!-- 错误，有bug -->
+
+	<hr />
+	<input type="text" /><input type="text" /><input type="text" />
+
+</body>
+</html>
