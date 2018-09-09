@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>案例二/测试</title>
+	<style>
+		.site-r a {
+			color: red;
+		}
+		.nav ul li a {
+			color: skyblue;
+		}
+		.nav, .sitenav {
+			/*font-size: 14px;
+			font-family: "微软雅黑"；*/
+			font: 14px "microsoft yahei";
+		}
+		.nav > ul > li > a {
+			color: green;
+		}
+	</style>
+</head>
+<body>
+	<!-- 1、链接 登入的颜色为红色 导航栏里面所有的链接为天空蓝 -->
+	<!-- 2、主导航栏和侧导航栏都是14像素并且是微软雅黑 -->
+	<!-- 3、主导航栏里面一级菜单链接设置为绿色 -->
+	<div class="nav">	<!-- 主导航栏 -->
+		<ul>
+			<li><a href="#">公司首部</a></li>
+			<li><a href="#">公司简介</a></li>
+			<li><a href="#">公司产品</a></li>
+			<li>
+				<a href="#">联系我们</a>
+				<ul>
+					<li><a href="#">公司邮箱</a></li>
+					<li><a href="#">公司电话</a></li>
+				</ul>
+			</li>
+		</ul>
+	</div>
+	<!-- 侧导航栏 -->
+	<div class="sitenav">
+		<div class="site-l">左侧侧导航栏</div>
+		<div class="site-r"><a href="#">登入</a></div>
+	</div>
+</body>
+</html>
