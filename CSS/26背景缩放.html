@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>背景缩放</title>
+	<style>
+		div {
+			/*我们插入的图片 image 直接通过 width和height设置*/
+			width: 400px;
+			height: 500px;
+			/*background-color: hotpink;*/
+			background: hotpink url(images/honor.jpg) no-repeat;
+			/*背景图片设置大小 background-size*/
+
+			/*background-size: 300px;*/
+			/*改变一个参数，防止缩放失真*/
+
+			/*background-size: 60%;*/
+
+			/*background-size: 400px 500px;*/
+
+			/*背景铺满方法*/
+			/*background-size: cover;*/
+			background-size: contain;
+		}
+	</style>
+</head>
+<body>
+	<div></div>
+</body>
+</html>

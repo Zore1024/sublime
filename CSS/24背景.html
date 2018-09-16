@@ -12,11 +12,16 @@
 			background-repeat: no-repeat; /*不平铺*/
 			/*background-repeat: repeat-x; /*x轴平铺*/
 			/*background-repeat: repeat-y; /*y轴平铺*/
-			/*利用方位名词 top bottom 来更改背景图片位置*/
+			/*1、利用方位名词 top bottom 来更改背景图片位置*/
 			/*background-position: right top; /*右上角 默认左上角*/
 			/*background-position: bottom right; /*右下角*/
 			/*background-position: center center;*/
-			background-position: center; 方位名词只写一个，另外一个默认为center
+			/*background-position: center;*/ /*方位名词只写一个，另外一个默认为center*/
+			/*2、 精确单位 第一个值为x坐标，第二个值为y坐标*/
+			/*background-position: 10px 10px; */
+			/*3、混搭*/
+			background-position: center 18px; /*水平居中 垂直18px*/
+			/*background-position: 18px center; *//*水平18px 垂直居中*/
 		}
 	</style>
 </head>
